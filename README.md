@@ -17,4 +17,12 @@ Open another terminal and write command npm run dev to start the localhost.
 
 Open the local saying "http://localhost:5173/" in your browser.
 
-And you can see the website.
+I have provided the default email and password for signin.
+
+If you want to provide authorization to another email and you have to do it in the postman for route "http://127.0.0.1:5000/api/auth/register/" with the post request and body containing data in raw JSON form. example is shown below 
+{
+    "email": "demo@example.com",
+    "password": "test1234"
+}
+
+I have already made one more authorize route for the above email and password.
